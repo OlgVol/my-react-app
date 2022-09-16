@@ -1,8 +1,11 @@
 import "./button.css"
+import {Link} from 'react'
 
 function Button() {
   return (
-    <button type="submit" class="btn btn-outline-info" target="_blank">More Power</button>
+    <Link to="">
+    <button type="submit" className="btn btn-outline-info" target="_blank">More Power</button>
+    </Link>
   )
 }
 
